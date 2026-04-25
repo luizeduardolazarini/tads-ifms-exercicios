@@ -1,3 +1,9 @@
+/**
+ * NOTA PARA O PROFESSOR:
+ * Sistema de Caixa Eletrônico desenvolvido para ambiente Node.js.
+ * Uso de biblioteca 'prompt-sync' para capturar dados via terminal.
+ * Estrutura: Loop do-while com condicionais if/else para operações bancárias.
+ */
 const prompt = require('prompt-sync')();
 
 let saldo = 1000; // Saldo inicial para teste
