@@ -1,1 +1,3 @@
 *.md linguist-documentation
+web-front-end/** linguist-documentation
+web-front-end/** linguist-documentation
