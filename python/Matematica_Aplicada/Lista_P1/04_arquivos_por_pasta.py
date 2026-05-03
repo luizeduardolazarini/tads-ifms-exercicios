@@ -1,8 +1,12 @@
-# Seção 4: Análise de Código (Exemplos Selecionados)
+# Objetivo: Calcular a distribuição de arquivos em pastas e o que sobra.
 
-# a) Divisão de arquivos por pastas
 arquivos = 23
 por_pasta = 5
-pastas_completas = arquivos // por_pasta
+
+# // calcula quantas pastas ficam totalmente cheias
+pastas_completas = arquivos // por_pasta 
+
+# % calcula quantos arquivos restam fora das pastas completas
 sobras = arquivos % por_pasta
-print(f"Pastas completas: {pastas_completas}, Sobras: {sobras}") # Saída: 4 3
+
+print(pastas_completas, sobras) # Saída esperada: 4 3
